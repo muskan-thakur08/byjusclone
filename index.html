@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>BYJU's Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            Poppins: ['Poppins', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-zinc-50 w-full h-screen">
+  <div class="max-w-screen-lg bg-white mx-auto font-Poppins">
+    <div class="w-[80%] mx-auto">
+      <h1 class="text-center text-3xl font-semibold bg-zinc-100 p-2">Blogs</h1>
+      <h1 class="text-4xl font-semibold text-center my-3">Normal Distribution</h1>
+      <p class="text-zinc-500 tracking-wide">In probability theory and statistics, the <span class="font-semibold">
+          Normal Distribution</span> , also called the <span class="font-semibold">Gaussian Distribution</span> , is the
+        most significant continuous <a href="#" class="text-[#8c69ff] hover:underline">probability distribution</a> .
+        Sometimes it is also called a bell curve. A large number of random variables are either nearly or exactly
+        represented by the normal distribution, in every physical science and economics. Furthermore, it can be used to
+        approximate other probability distributions, therefore supporting the usage of the word ‘normal ‘as in about the
+        one, mostly used.</p>
+      <p class="my-4 text-zinc-600 font-semibold text-md">Table of Content:</p>
+      <ul class="pl-10">
+
+        <li class="list-disc"><a href="#" class="text-[#8c69ff] hover:underline">Definition</a></li>
+        <li class="list-disc"><a href="#" class="text-[#8c69ff] hover:underline">Formula</a></li>
+        <li class="list-disc"><a href="#" class="text-[#8c69ff] hover:underline">Curve</a></li>
+        <li class="list-disc"><a href="#" class="text-[#8c69ff] hover:underline">Normal Distribution Standard
+            Deviation</a></li>
+        <li class="list-disc"><a href="#" class="text-[#8c69ff] hover:underline">Table</a></li>
+        <li class="list-disc"><a href="#" class="text-[#8c69ff] hover:underline">Problems and Solutions</a></li>
+        <li class="list-disc"><a href="#" class="text-[#8c69ff] hover:underline">Properties</a></li>
+        <li class="list-disc"><a href="#" class="text-[#8c69ff] hover:underline">Applications</a></li>
+        <li class="list-disc"><a href="#" class="text-[#8c69ff] hover:underline">FAQs</a></li>
+      </ul>
+      <h1 class="text-[24px] text-[#444444] font-semibold mt-4 mb-3">Normal Distribution Definition</h1>
+      <p class="text-[#444444] text-[16px] tracking-wide">The Normal Distribution is defined by the <a href="#"
+          class="hover:underline text-[#8c69ff] ">probability density function</a>
+        for a continuous random variable in a system. Let us say, f(x) is the probability density function and X is the
+        random variable. Hence, it defines a function which is integrated between the range or interval (x to x + dx),
+        giving the probability of random variable X, by considering the values between x and x+dx.</p>
+      <p class="text-[#444444] my-4">f(x) ≥ 0 ∀ x ϵ (−∞,+∞)</p>
+      <p class="text-[#444444] ">And -∞∫+∞ f(x) = 1</p>
+      <h3 class="text-[20px] text-[#444444] font-semibold mt-4">Normal Distribution Formula</h3>
+      <p class="text-[16px] text-[#444444] mt-2 mb-4 tracking-wide">The probability density function of normal or
+        gaussian distribution is given by;</p>
+      <img src="https://cdn1.byjus.com/wp-content/uploads/2019/10/normal-distribution-formula.png"
+        class="shadow-md mb-5">
+      <p class="text-[#444444] mb-3 font-medium">Where,</p>
+      <ul class="text-[14px] text-[#444444] pl-9">
+        <li class="list-disc tracking-wide">x is the variable</li>
+        <li class="list-disc tracking-wide">μ is the mean</li>
+        <li class="list-disc tracking-wide">σ is the standard deviation</li>
+      </ul>
+      <h3 class="text-[20px] text-[#444444] font-semibold my-3">Normal Distribution Curve</h3>
+      <p class="mb-4">The <a href="#" class="text-[#8c69ff] hover:underline">random variables</a> following the normal
+        distribution are those whose values can find any unknown value in a given range. For example, finding the height
+        of the students in the school. Here, the distribution can consider any value, but it will be bounded in the
+        range say, 0 to 6ft. This limitation is forced physically in our query.</p>
+      <p class="text-[#444444] mb-4">Whereas, the normal distribution doesn’t even bother about the range. The range can
+        also extend to –∞ to + ∞ and still we can find a smooth curve. These random variables are called Continuous
+        Variables, and the Normal Distribution then provides here probability of the value lying in a particular range
+        for a given experiment. Also, use the <a href="#" class="hover:underline text-[#8c69ff]">normal distribution
+          calculator</a> to find the probability density function by just providing the mean and standard deviation
+        value.</p>
+      <h3 class="text-[24px] text-[#444444] mb-3">Normal Distribution Standard Deviation</h3>
+      <p class="text-[#444444]">Generally, the normal distribution has any positive standard deviation. We know that the
+        mean helps to determine the line of symmetry of a graph, whereas the standard deviation helps to know how far
+        the data are spread out. If the standard deviation is smaller, the data are somewhat close to each other and the
+        graph becomes narrower. If the standard deviation is larger, the data are dispersed more, and the graph becomes
+        wider. The standard deviations are used to subdivide the area under the normal curve. Each subdivided section
+        defines the percentage of data, which falls into the specific region of a graph.</p>
+      <p class="text-[#444444] my-4">Using 1 standard deviation, the Empirical Rule states that,</p>
+      <ul class="pl-10 text-[#444444] text-[14px] tracking-wide flex flex-col gap-2">
+        <li class="list-disc">Approximately 68% of the data falls within one standard deviation of the mean. (i.e.,
+          Between Mean- one Standard Deviation and Mean + one standard deviation)</li>
+        <li class="list-disc">Approximately 95% of the data falls within two standard deviations of the mean. (i.e.,
+          Between Mean- two Standard Deviation and Mean + two standard deviations)</li>
+        <li class="list-disc">Approximately 99.7% of the data fall within three standard deviations of the mean. (i.e.,
+          Between Mean- three Standard Deviation and Mean + three standard deviations)</li>
+      </ul>
+      <img src="https://cdn1.byjus.com/wp-content/uploads/2021/03/Math-imagesArtboard-1-copy-11-8.png"
+        class="pr-5 mt-2 shadow-md">
+      <p class="text-[#444444] mt-8">Thus, the empirical rule is also called the 68 – 95 – 99.7 rule.</p>
+      <h3 class="text-[20px] text-[#444444] mt-3 font-semibold">Normal Distribution Table</h3>
+      <p class="text-[#444444] mt-2 mb-4">The table here shows the area from 0 to Z-value.</p>
+      <img src="https://i.postimg.cc/cJ4LMcTJ/Capture.png">
+      <img src="https://i.postimg.cc/0jpvq6Z3/Capture-1.png" alt="">
+      <img src="https://i.postimg.cc/qMT0xLvd/Capture-2.png" alt="">
+      <img src="https://i.postimg.cc/NjNcYv7g/Capture-3.png" alt="">
+      <h3 class="text-[20px] text-[#444444] font-semibold my-3">Normal Distribution Problems and Solutions</h3>
+      <p class="text-[#444444] font-semibold">Question 1: Calculate the probability density function of normal
+        distribution using the following data. x = 3, μ = 4 and σ = 2.</p>
+      <div class="text-[#444444] flex flex-col gap-4">
+        <p class="mt-3">Solution: Given, variable, x = 3</p>
+        <p>Mean = 4 and</p>
+        <p>Standard deviation = 2</p>
+        <p>By the formula of the probability density of normal distribution, we can write;</p>
+      </div>
+      <img src="https://cdn1.byjus.com/wp-content/uploads/2019/10/normal-distribution-example.png"
+        class="shadow-md mt-2">
+      <p class="text-[#444444] mt-5">Hence, f(3,4,2) = 1.106.</p>
+      <p class="font-semibold text-[#444444] mt-4">Question 2: If the value of random variable is 2, mean is 5 and the
+        standard deviation is 4, then find the probability density function of the gaussian distribution.</p>
+      <div class="text-[#444444] flex flex-col gap-4">
+        <p class="mt-3">Solution: Given,</p>
+        <p>Variable, x = 2</p>
+        <p>Mean = 5 and</p>
+        <p>Standard deviation = 4</p>
+        <p>By the formula of the probability density of normal distribution, we can write;</p>
+      </div>
+      <img src="https://cdn1.byjus.com/wp-content/uploads/2019/10/normal-distribution-problem-and-solution.png"
+        class="shadow-md mt-3 font-medium">
+      <div class="text-[#444444] flex flex-col gap-3">
+        <p class="mt-5">f(2,2,4) = 1/(4√2π) e0</p>
+        <p>f(2,2,4) = 0.0997</p>
+        <p>There are two main parameters of normal distribution in statistics namely mean and standard deviation. The location and scale parameters of the given normal distribution can be estimated using these two parameters. </p>
+      </div>
+      <h1 class="mt-5 mb-3 text-[20px]">Normal Distribution Properties</h1>
+      <p class="text-[#444444]">Some of the important properties of the normal distribution are listed below:</p>
+      <ul class="flex flex-col gap-1 list-disc pl-10 mt-3 text-[14px]">
+        <li>In a normal distribution, the mean, median and mode are equal.(i.e., Mean = Median= Mode).</li>
+        <li>The total area under the curve should be equal to 1.</li>
+        <li>The normally distributed curve should be symmetric at the centre.</li>
+        <li>There should be exactly half of the values are to the right of the centre and exactly half of the values are to the left of the centre.</li>
+        <li>The normal distribution should be defined by the mean and standard deviation.</li>
+        <li>The normal distribution curve must have only one peak. (i.e., Unimodal)</li>
+        <li>The curve approaches the x-axis, but it never touches, and it extends farther away from the mean.</li>
+      </ul>
+      <h1 class="text-[#444444] mt-3 font-semibold">Applications</h1>
+      <p class="text-[#444444] mt-2 mb-4">The normal distributions are closely associated with many things such as:</p>
+      <ul class="flex flex-col gap-1 list-disc pl-10 mt-3 text-[14px]">
+        <li>Marks scored on the test</li>
+        <li>Heights of different persons</li>
+        <li>Size of objects produced by the machine </li>
+        <li>Blood pressure and so on.</li>
+      </ul>
+      <h1 class="font-semibold text-[24px] mb-3 mt-10">Frequently Asked Questions on Normal Distribution – FAQs</h1>
+      <div class="mt-5 text-[#444444] flex flex-col gap-5">
+        <div>
+          <h3 class="font-semibold flex gap-4"> <span class="font-medium">Q1</span>
+            What is a normal distribution in statistics?</h3>
+            <p class="pl-9 mt-2">A probability function that specifies how the values of a variable are distributed is called the normal distribution. It is symmetric since most of the observations assemble around the central peak of the curve. The probabilities for values of the distribution are distant from the mean narrow off evenly in both directions.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold flex gap-4"> <span class="font-medium">Q2</span>
+            What does normal distribution mean?</h3>
+            <p class="pl-9 mt-2">In statistics (and in probability theory), the Normal Distribution, also called the Gaussian Distribution, is the most important continuous probability distribution. Sometimes it is also called a bell curve.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold flex gap-4"> <span class="font-medium">Q3</span>
+            What is a normal distribution used for?</h3>
+            <p class="pl-9 mt-2">A normal distribution is significant in statistics and is often used in the natural sciences and social arts to describe real-valued random variables whose distributions are unknown.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold flex gap-4"> <span class="font-medium">Q4</span>
+            What are the characteristics of a normal distribution?</h3>
+            <p class="pl-9 mt-2">The essential characteristics of a normal distribution are:
+              It is symmetric, unimodal (i.e., one mode), and asymptotic.
+              The values of mean, median, and mode are all equal.
+              A normal distribution is quite symmetrical about its center. That means the left side of the center of the peak is a mirror image of the right side. There is also only one peak (i.e., one mode) in a normal distribution.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold flex gap-4"> <span class="font-medium">Q5</span>
+            How do you know if data is normally distributed?</h3>
+            <p class="pl-9 mt-2">A histogram presents a useful graphical representation of the given data. When a histogram of distribution is superimposed with its normal curve, then the distribution is known as the normal distribution.</p>
+        </div>
+        <div class="mb-5">
+          <h3 class="font-semibold flex gap-4"> <span class="font-medium">Q6</span>
+            How do you use a normal distribution table?</h3>
+            <p class="pl-9 mt-2">As we know, the label for rows contains the integer part and the first decimal place of z. In contrast, the title for columns comprises the second decimal place of z. The values within the table are the probabilities corresponding to the table type. Hence, to get the value of 0.56 from the z-table, identify the probability value corresponding to the 0.5 row and 0.06 column (=0.2123).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
